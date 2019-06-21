@@ -7,6 +7,7 @@ import AboutSection from './components/AboutSection';
 import ResumeSection from './components/ResumeSection';
 import ProjectSection from './components/ProjectSection';
 import ContactSection from './components/ContactSection'
+// import "animate.css/animate.min.css";
 
 
 function App() {

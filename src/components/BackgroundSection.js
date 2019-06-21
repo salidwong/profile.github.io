@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/background-section.css'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class BackgroundSection extends React.Component {
 
@@ -7,14 +8,19 @@ class BackgroundSection extends React.Component {
 
         return (
             <div>
-                <section className="bg-section"></section>
+                <div className="bg-section"></div>
 
                 <div className="bg-text">
-                    <h2>Hello</h2>
-                    <h1>I am Salidwong Wansanoh</h1>
-                    <p>And I'm a Fron-end Developer</p>
+                    <ScrollAnimation animateIn="fadeIn" duration="3" animateOnce="true">
+                        <h2>Hello</h2>
+                        <h1>I am Salidwong Wansanoh</h1>
+                        <p>And I'm a Fron-end Developer</p>
+                    </ScrollAnimation>
+
                 </div>
+                
             </div>
+            
 
         )
     }
