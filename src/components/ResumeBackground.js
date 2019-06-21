@@ -67,7 +67,7 @@ class ResumeBackground extends React.Component {
                 <Container>
                     <Row>
                         <Col md={4} xs={12} className="mb-4">
-                            <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
+                            <ScrollAnimation animateIn="bounceInLeft" animateOnce="true" delay="600">
                                 <div className="title-background">
                                     <p>Education​​</p>
                                 </div>
@@ -75,7 +75,7 @@ class ResumeBackground extends React.Component {
                         </Col>
                         <Col md={8} xs={12}>
                             <div className="text-background mt-4">
-                                <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
+                                <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="1100">
                                     <p>2014 - 2018</p>
                                     <p>
                                         Bachelor of computer and information engineering

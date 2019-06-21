@@ -11,7 +11,7 @@ class BackgroundSection extends React.Component {
                 <div className="bg-section"></div>
 
                 <div className="bg-text">
-                    <ScrollAnimation animateIn="fadeIn" duration="3" animateOnce="true">
+                    <ScrollAnimation animateIn="fadeIn" duration="1" animateOnce="true">
                         <h2>Hello</h2>
                         <h1>I am Salidwong Wansanoh</h1>
                         <p>And I'm a Fron-end Developer</p>

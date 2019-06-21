@@ -14,7 +14,7 @@ class ResumePersonalSkill extends React.Component {
             <Container className="pt-5 mt-3 pl-5">
                 <Row>
                     <Col md={12} xs={6}>
-                        <ScrollAnimation animateIn="bounceInRight" animateOnce="true" >
+                        <ScrollAnimation animateIn="bounceInRight" animateOnce="true" delay="500">
                             <Image src={BrainStorm} className="img-personal-skill mx-auto mb-4" />
                             <div className="mb-5">
                                 <h5>Skill</h5>
