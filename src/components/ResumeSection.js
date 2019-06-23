@@ -5,16 +5,19 @@ import Col from 'react-bootstrap/Col';
 import ResumeBackground from './ResumeBackground';
 import ResumePersonalSkill from './ResumePersonalSkill';
 import ScrollAnimation from 'react-animate-on-scroll';
+import resume from '../pdf/Resume_Jay.pdf';
+import Button from 'react-bootstrap/Button';
 
 class ResumeSection extends React.Component {
     render() {
         return (
             <Container>
+                <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
+                    <h3>Resume</h3>
+                </ScrollAnimation>
+                <hr />
                 <Row>
                     <Col md={8} xs={12}>
-                        <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
-                            <h3>Resume</h3>
-                        </ScrollAnimation>
                         <ResumeBackground />
                     </Col>
                     <Col md={4} xs={12}>
@@ -22,6 +25,12 @@ class ResumeSection extends React.Component {
                     </Col>
 
                 </Row>
+                <Container className="d-flex justify-content-center mt-3 mb-3">
+                    <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+                        <Button href={resume} variant="outline-primary" >Click here for pdf</Button>
+
+                    </ScrollAnimation>
+                </Container>
             </Container>
 
         )

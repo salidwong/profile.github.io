@@ -9,7 +9,6 @@ class ResumeBackground extends React.Component {
     render() {
         return (
             <Container>
-                <hr />
                 <Container>
                     <Row>
                         <Col md={4} xs={12} className="mb-4">
@@ -44,19 +43,20 @@ class ResumeBackground extends React.Component {
                 <Container>
                     <Row>
                         <Col md={4} xs={12} className="mb-4">
-                            <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
+                            <ScrollAnimation animateIn="bounceInLeft" animateOnce="true" >
                                 <div className="title-background">
-                                    <p>Work​ experience​​</p>
+                                    <p>Education​​</p>
                                 </div>
                             </ScrollAnimation>
                         </Col>
                         <Col md={8} xs={12}>
-                            <div className="text-background mt-5">
+                            <div className="text-background mt-4">
                                 <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                    <p>Aug 2018 - Present</p>
+                                    <p>2014 - 2018</p>
                                     <p>
-                                        Software Developer At MFEC Public Company Limited
-                                </p>
+                                        Bachelor of computer and information engineering
+                                        Kasetsart University Sriracha Campus
+                                    </p>
                                 </ScrollAnimation>
                             </div>
                         </Col>
@@ -69,23 +69,24 @@ class ResumeBackground extends React.Component {
                         <Col md={4} xs={12} className="mb-4">
                             <ScrollAnimation animateIn="bounceInLeft" animateOnce="true" delay="600">
                                 <div className="title-background">
-                                    <p>Education​​</p>
+                                    <p>Work​ experience​​</p>
                                 </div>
                             </ScrollAnimation>
                         </Col>
                         <Col md={8} xs={12}>
-                            <div className="text-background mt-4">
+                            <div className="text-background mt-5">
                                 <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="1100">
-                                    <p>2014 - 2018</p>
+                                    <p>Aug 2018 - Present</p>
                                     <p>
-                                        Bachelor of computer and information engineering
-                                        Kasetsart University Sriracha Campus
-                                    </p>
+                                        Software Developer At MFEC Public Company Limited
+                                </p>
                                 </ScrollAnimation>
                             </div>
                         </Col>
                     </Row>
                 </Container>
+
+
 
             </Container>
         )

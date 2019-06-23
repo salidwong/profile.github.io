@@ -32,13 +32,21 @@ class ProjectSection extends React.Component {
 
                         <Col md={6} xs={12}>
                             <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                <h4 className="pt-5">FNA</h4>
+                                <h4 className="pt-5">FNA Application / Apr 2019 - Jun 2019 </h4>
                                 <hr />
                                 <div className="pt-2">
                                     <p>
-                                        Develop cross-platform applications for insurance sellers
+                                        Developed cross-platform applications for insurance sellers
                                         of Thai companies using reactjs, CSS, Boostrap Framework
-                                </p>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            UI/UX Design Evaluation short form page
+                                        </li>
+                                        <li>
+                                            Developed Evaluation short form page
+                                        </li>
+                                    </ul>
                                 </div>
                             </ScrollAnimation>
                         </Col>
@@ -58,13 +66,24 @@ class ProjectSection extends React.Component {
 
                         <Col md={6} xs={12}>
                             <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                <h4 className="pt-5">SCB siriraj connect</h4>
+                                <h4 className="pt-5">SCB Application / Jan 2019 - Mar 2019</h4>
                                 <hr />
                                 <div className="pt-2">
                                     <p>
-                                        Develop applications For Siriraj Hospital To facilitate
+                                        Developed applications For Siriraj Hospital To facilitate
                                         for users  using Android studio JAVA Firebase
-                                </p>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            Developed function checkin for Out Patient Department
+                                        </li>
+                                        <li>
+                                            Improved UI/UX AppointmentList Page
+                                        </li>
+                                        <li>
+                                            Design and Develop Requiement popup
+                                        </li>
+                                    </ul>
                                 </div>
                             </ScrollAnimation>
                         </Col>
@@ -84,13 +103,24 @@ class ProjectSection extends React.Component {
 
                         <Col md={6} xs={12}>
                             <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                <h4 className="pt-5">KTC Websites</h4>
+                                <h4 className="pt-5">KTC Website / Aug 2018 - Jan 2019</h4>
                                 <hr />
                                 <div className="pt-2">
                                     <p>
-                                        Develop websites for KTC using oracle's WCS and include
+                                        Developed websites for KTC using oracle's WCS and include
                                         HTML CSS Javascript Boostrap Jquery JSP.
-                                </p>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            Improved UI/UX  for KTC Website
+                                        </li>
+                                        <li>
+                                            Improve webservice to be effective
+                                        </li>
+                                        <li>
+                                            Developed KTC World Website
+                                        </li>
+                                    </ul>
                                 </div>
                             </ScrollAnimation>
                         </Col>

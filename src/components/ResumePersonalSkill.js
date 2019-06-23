@@ -7,11 +7,13 @@ import BrainStorm from '../images/brainstorm.png';
 import Language from '../images/language.png';
 import '../styles/resume-personal-skill.css';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 class ResumePersonalSkill extends React.Component {
     render() {
         return (
-            <Container className="pt-5 mt-3 pl-5">
+            <Container className="mt-3 pl-5">
                 <Row>
                     <Col md={12} xs={6}>
                         <ScrollAnimation animateIn="bounceInRight" animateOnce="true" delay="500">
@@ -20,12 +22,19 @@ class ResumePersonalSkill extends React.Component {
                                 <h5>Skill</h5>
                                 <hr />
                                 <p>
+                                    <FontAwesomeIcon icon={['fab', 'react']} />&nbsp;
                                     Reactjs <br />
+                                    <FontAwesomeIcon icon={['fab', 'html5']} size="lg" />&nbsp;
                                     HTML <br />
+                                    <FontAwesomeIcon icon={['fab', 'css3-alt']} size="lg" />&nbsp;
                                     CSS <br />
+                                    <FontAwesomeIcon icon={['fab', 'bootstrap']} size="lg" />&nbsp;
                                     Boostrap Framework <br />
+                                    <FontAwesomeIcon icon={['fab', 'js-square']} size="lg" />&nbsp;
                                     Javascript <br />
+                                    <FontAwesomeIcon icon={['fas', 'code']}  />&nbsp;
                                     Jquery<br />
+                                    <FontAwesomeIcon icon={['fab', 'java']} size="lg" />&nbsp;
                                     JAVA <br />
                                 </p>
                             </div>

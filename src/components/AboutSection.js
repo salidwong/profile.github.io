@@ -8,13 +8,16 @@ import profile from '../images/profile.png';
 import Image from 'react-bootstrap/Image';
 import ScrollAnimation from 'react-animate-on-scroll';
 
+
+
+
 class AboutSection extends React.Component {
     render() {
         return (
             <Container >
                 <Row>
                     <Col md={6} xs={12}>
-                        <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">  
+                        <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
                             <Container >
                                 <Image src={profile} roundedCircle className="mx-auto d-block mb-4" />
                             </Container>
@@ -27,11 +30,10 @@ class AboutSection extends React.Component {
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="fadeIn" delay="1000" animateOnce="true">
                             <p className="text-about">
-                                Hi, my name is Salidwong Wansanoh you can call me Jay
-                                i'm interested in the Front-end Develop by Reactjs,
-                                i'm a person who likes to learn new things. To bring knowledge used in self-development,
-                                i'm a productive team player, a good communicator, energetic and responsible, fast learning and hard working and
-                                Able to work under pressure and flexible time
+                            It’s nice to meet you, my name is Jay. I am interested in coding or programming. 
+                            Programming makes me astonished many times. 
+                            For me, programming like magic, it can create things with just touch of 
+                            a keyboard, it can create many things. 
                         </p>
                         </ScrollAnimation>
 
