@@ -18,7 +18,7 @@ class ContactSection extends React.Component {
                     <Col md={3} xs={12} >
                         <Row>
                             <FontAwesomeIcon icon={['fas', 'mobile-alt']} size="lg" />
-                            <p>+66-9-5478-0378</p>
+                            <p>+66 9 5478 0378</p>
                         </Row>
 
                     </Col>
