@@ -7,8 +7,7 @@ import Col from 'react-bootstrap/Col';
 import profile from '../images/profile.png';
 import Image from 'react-bootstrap/Image';
 import ScrollAnimation from 'react-animate-on-scroll';
-
-
+import '../styles/about-section.css';
 
 
 class AboutSection extends React.Component {
@@ -25,16 +24,17 @@ class AboutSection extends React.Component {
 
                     </Col>
                     <Col md={6} xs={12}>
-                        <ScrollAnimation animateIn="bounceInRight" delay="500" animateOnce="true">
+                        <ScrollAnimation animateIn="bounceInRight" delay="" animateOnce="true">
                             <h3>About Me</h3>
                         </ScrollAnimation>
-                        <ScrollAnimation animateIn="fadeIn" delay="1000" animateOnce="true">
+                        <ScrollAnimation animateIn="fadeIn" delay="500" animateOnce="true">
                             <p className="text-about">
-                            It’s nice to meet you, my name is Jay. I am interested in coding or programming. 
+                            It’s nice to meet you, my name is Salidwong Wansanoh you can call me  Jay. <br/> I am interested in coding or programming. 
                             Programming makes me astonished many times. 
-                            For me, programming like magic, it can create things with just touch of 
-                            a keyboard, it can create many things. 
-                        </p>
+                            For me, programming like magic, it can create many things with just touch of 
+                            a keyboard
+                            </p>
+                            <p className="text-center about-quote">- It’s never too late to start again -</p>
                         </ScrollAnimation>
 
                     </Col>

@@ -13,7 +13,7 @@ class BackgroundSection extends React.Component {
                     <ScrollAnimation animateIn="fadeIn" duration="1" animateOnce="true">
                         <h2>Hello</h2>
                         <h1>I am Salidwong Wansanoh</h1>
-                        <p>And I'm a Fron-end Developer</p>
+                        <p>And I'm a Front-end Developer</p>
                     </ScrollAnimation>
                 </div>
                 

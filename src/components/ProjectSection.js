@@ -5,12 +5,40 @@ import Col from 'react-bootstrap/Col';
 import ProjectSlideImage from './ProjectSlideImage';
 import ImageTest from '../images/300x300.png';
 import ScrollAnimation from 'react-animate-on-scroll';
+import FNAImage1 from '../images/img-fna-1.PNG';
+import FNAImage2 from '../images/img-fna-2.PNG';
+import FNAImage3 from '../images/img-fna-3.PNG';
+import FNAImage4 from '../images/img-fna-4.PNG';
+import FNAImage5 from '../images/img-fna-5.PNG';
+import FNAImage6 from '../images/img-fna-6.PNG';
+import FNAImage7 from '../images/img-fna-7.PNG';
+import KTCImage1 from '../images/img-ktc-1.png';
+import KTCImage2 from '../images/img-ktc-2.png';
+import KTCImage3 from '../images/img-ktc-3.png';
+import KTCImage4 from '../images/img-ktc-4.png';
+import KTCImage5 from '../images/img-ktc-5.png';
+import KTCImage6 from '../images/img-ktc-6.png';
+import KTCImage7 from '../images/img-ktc-7.png';
+import KTCImage8 from '../images/img-ktc-8.png';
+import KTCImage9 from '../images/img-ktc-9.png';
+import KTCImage10 from '../images/img-ktc-10.png';
+import KTCImage11 from '../images/img-ktc-11.png';
+import HosappImage1 from '../images/img-hosapp-1.png';
+import HosappImage2 from '../images/img-hosapp-2.png';
+import HosappImage3 from '../images/img-hosapp-3.png';
+import HosappImage4 from '../images/img-hosapp-4.png';
+import HosappImage5 from '../images/img-hosapp-5.png';
+import HosappImage6 from '../images/img-hosapp-6.png';
 
 class ProjectSection extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            imgProject1: [ImageTest, ImageTest, ImageTest]
+            imgTest : [ImageTest, ImageTest, ImageTest],
+            imgProject1: [FNAImage1, FNAImage2, FNAImage3, FNAImage4, FNAImage5, FNAImage6, FNAImage7],
+            imgProject2 : [HosappImage1, HosappImage2, HosappImage3, HosappImage4, HosappImage5, HosappImage6],
+            imgProject3: [KTCImage1, KTCImage2, KTCImage3, KTCImage4, KTCImage5, KTCImage6, KTCImage7, KTCImage8,KTCImage9, KTCImage10, KTCImage11]
+            
         }
     }
 
@@ -60,7 +88,7 @@ class ProjectSection extends React.Component {
                     <Row>
                         <Col md={6} xs={12}>
                             <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
-                                <ProjectSlideImage listImage={this.state.imgProject1} />
+                                <ProjectSlideImage listImage={this.state.imgProject2} />
                             </ScrollAnimation>
                         </Col>
 
@@ -97,7 +125,7 @@ class ProjectSection extends React.Component {
                     <Row>
                         <Col md={6} xs={12}>
                             <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
-                                <ProjectSlideImage listImage={this.state.imgProject1} />
+                                <ProjectSlideImage listImage={this.state.imgProject3} />
                             </ScrollAnimation>
                         </Col>
 

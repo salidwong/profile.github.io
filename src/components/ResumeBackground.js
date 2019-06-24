@@ -24,10 +24,10 @@ class ResumeBackground extends React.Component {
                             <div className="text-background mt-2">
                                 <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
                                     <p>
-                                        Height : 169 cm<br />
-                                        Weight : 61 kg<br />
-                                        Sex : male<br />
                                         Age : 23<br />
+                                        Sex : male<br />
+                                        Weight : 61 kg<br />
+                                        Height : 169 cm<br />
                                         Nationality : Thai<br />
                                         Military status : Exempted from military service because of 3 years of Reserved Officer Training Course<br />
                                     </p>
@@ -54,7 +54,7 @@ class ResumeBackground extends React.Component {
                                 <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
                                     <p>2014 - 2018</p>
                                     <p>
-                                        Bachelor of computer and information engineering
+                                        Bachelor of Computer and Information Engineering
                                         Kasetsart University Sriracha Campus
                                     </p>
                                 </ScrollAnimation>
@@ -76,7 +76,7 @@ class ResumeBackground extends React.Component {
                         <Col md={8} xs={12}>
                             <div className="text-background mt-5">
                                 <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="1100">
-                                    <p>Aug 2018 - Present</p>
+                                    <p>Aug 2018 - Jun 2019</p>
                                     <p>
                                         Software Developer At MFEC Public Company Limited
                                 </p>

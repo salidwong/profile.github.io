@@ -19,7 +19,7 @@ class ResumePersonalSkill extends React.Component {
                         <ScrollAnimation animateIn="bounceInRight" animateOnce="true" delay="500">
                             <Image src={BrainStorm} className="img-personal-skill mx-auto mb-4" />
                             <div className="mb-5">
-                                <h5>Skill</h5>
+                                <h5>Skills</h5>
                                 <hr />
                                 <p>
                                     <FontAwesomeIcon icon={['fab', 'react']} />&nbsp;
