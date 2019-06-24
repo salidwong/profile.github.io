@@ -1,0 +1,9 @@
+.btn-pdf{
+    color: #CC0033;
+    border-color: #CC0033;
+}
+.btn-pdf:hover{
+    color: white;
+    border-color: #CC0033;
+    background: #CC0033;
+}

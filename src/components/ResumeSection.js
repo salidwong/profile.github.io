@@ -7,6 +7,7 @@ import ResumePersonalSkill from './ResumePersonalSkill';
 import ScrollAnimation from 'react-animate-on-scroll';
 import resume from '../pdf/Resume_Jay.pdf';
 import Button from 'react-bootstrap/Button';
+import '../styles/resume-section.css';
 
 class ResumeSection extends React.Component {
     render() {
@@ -27,7 +28,7 @@ class ResumeSection extends React.Component {
                 </Row>
                 <Container className="d-flex justify-content-center mt-3 mb-3">
                     <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-                        <Button href={resume} variant="outline-primary" >Click here for pdf</Button>
+                        <Button href={resume} variant="outline-primary" className="btn-pdf">Click here for pdf</Button>
 
                     </ScrollAnimation>
                 </Container>

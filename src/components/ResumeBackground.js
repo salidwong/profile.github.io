@@ -98,7 +98,7 @@ class ResumeBackground extends React.Component {
                         <Col md={8} xs={12}>
                             <div className="text-background mt-4">
                                 <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                    <p>Aug 2014 - May 2018</p>
+                                    <p className="resume-education-times">Aug 2014 - May 2018</p>
                                     <p>
                                         Bachelor of Computer and Information Engineering
                                         Kasetsart University Sriracha Campus
@@ -122,7 +122,7 @@ class ResumeBackground extends React.Component {
                         <Col md={8} xs={12}>
                             <div className="text-background mt-5">
                                 <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="1100">
-                                    <p>Aug 2018 - Jun 2019</p>
+                                    <p className="resume-work-times">Aug 2018 - Jun 2019</p>
                                     <p>
                                         Software Developer At MFEC Public Company Limited
                                 </p>

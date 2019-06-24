@@ -25,7 +25,7 @@ class AboutSection extends React.Component {
                     </Col>
                     <Col md={6} xs={12}>
                         <ScrollAnimation animateIn="bounceInRight" delay="" animateOnce="true">
-                            <h3>About Me</h3>
+                            <h1 className="mb-4">About Me</h1>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn="fadeIn" delay="500" animateOnce="true">
                             <p className="text-about">

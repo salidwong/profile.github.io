@@ -44,13 +44,7 @@ class ResumePersonalSkill extends React.Component {
                                         Reactjs
                                     </li>
                                     <li>
-                                        HTML
-                                    </li>
-                                    <li>
-                                        CSS
-                                    </li>
-                                    <li>
-                                        Boostrap Framework
+                                        HTML, CSS
                                     </li>
                                     <li>
                                         Javascript
@@ -59,8 +53,21 @@ class ResumePersonalSkill extends React.Component {
                                         Jquery
                                     </li>
                                     <li>
-                                        JAVA
+                                        Boostrap Framework
                                     </li>
+                                    <li>
+                                        JAVA, Firebase
+                                    </li>
+                                    <li>
+                                        C/C++
+                                    </li>
+                                    <li>
+                                        Basic linux command
+                                    </li>
+                                    <li>
+                                        Git Command
+                                    </li>
+
                                 </ul>
                             </div>
                         </ScrollAnimation>

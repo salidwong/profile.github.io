@@ -30,8 +30,10 @@ function App() {
       <ResumeSection />
       <br />
       <ProjectSection />
-      <br/>
-      <ContactSection/>
+      <br />
+      <ContactSection />
+
+
     </div>
   );
 }

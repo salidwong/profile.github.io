@@ -7,9 +7,12 @@
     color: #fff;
     line-height: 150px;
     text-align: center;
-    background: brown;
+    background: #6699CC;
     font-weight: bold;
 }
 .text-background p {
     /* text-indent: 2vw; */
+}
+.resume-education-times, .resume-work-times{
+    font-weight: bold;
 }

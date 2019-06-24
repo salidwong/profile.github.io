@@ -29,6 +29,7 @@ import HosappImage3 from '../images/img-hosapp-3.png';
 import HosappImage4 from '../images/img-hosapp-4.png';
 import HosappImage5 from '../images/img-hosapp-5.png';
 import HosappImage6 from '../images/img-hosapp-6.png';
+import '../styles/project-section.css';
 
 class ProjectSection extends React.Component {
     constructor(props) {
@@ -60,7 +61,7 @@ class ProjectSection extends React.Component {
 
                         <Col md={6} xs={12}>
                             <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                <h4 className="pt-5">FNA Application / Apr 2019 - Jun 2019 </h4>
+                                <h4 className="pt-5">FNA Application <span className="project-work-times">/ Apr 2019 - Jun 2019</span> </h4>
                                 <hr />
                                 <div className="pt-2">
                                     <p>
@@ -94,7 +95,7 @@ class ProjectSection extends React.Component {
 
                         <Col md={6} xs={12}>
                             <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                <h4 className="pt-5">SCB Application / Jan 2019 - Mar 2019</h4>
+                                <h4 className="pt-5">SCB Application <span className="project-work-times">/ Jan 2019 - Mar 2019</span></h4>
                                 <hr />
                                 <div className="pt-2">
                                     <p>
@@ -131,7 +132,7 @@ class ProjectSection extends React.Component {
 
                         <Col md={6} xs={12}>
                             <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                <h4 className="pt-5">KTC Website / Aug 2018 - Jan 2019</h4>
+                                <h4 className="pt-5">KTC Website <span className="project-work-times">/ Aug 2018 - Jan 2019</span></h4>
                                 <hr />
                                 <div className="pt-2">
                                     <p>
