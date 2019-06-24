@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import profile from '../images/profile.png';
+import profile from '../images/img-profile.jpg';
 import Image from 'react-bootstrap/Image';
 import ScrollAnimation from 'react-animate-on-scroll';
 import '../styles/about-section.css';
@@ -18,7 +18,7 @@ class AboutSection extends React.Component {
                     <Col md={6} xs={12}>
                         <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
                             <Container >
-                                <Image src={profile} roundedCircle className="mx-auto d-block mb-4" />
+                                <Image src={profile} rounded  thumbnail  className="mx-auto d-block mb-4 shadow-lg" />
                             </Container>
                         </ScrollAnimation>
 
