@@ -14,23 +14,69 @@ class ResumeBackground extends React.Component {
                         <Col md={4} xs={12} className="mb-4">
                             <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
                                 <div className="title-background">
-                                    <p>Personal ​info​​</p>
+                                    <p>Interests</p>
                                 </div>
                             </ScrollAnimation>
 
 
                         </Col>
                         <Col md={8} xs={12}>
-                            <div className="text-background mt-2">
+                            <div className="text-background mt-4">
                                 <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                    <p>
+                                    {/* <p>
                                         Age : 23<br />
                                         Sex : male<br />
                                         Weight : 61 kg<br />
                                         Height : 169 cm<br />
                                         Nationality : Thai<br />
                                         Military status : Exempted from military service because of 3 years of Reserved Officer Training Course<br />
-                                    </p>
+                                    </p> */}
+                                    <Row>
+                                        <Col md={4} xs={6}>
+                                            <ul className="pl-3">
+                                                <li>
+                                                    Exploring
+                                                </li>
+                                                <li>
+                                                    Music
+                                                </li>
+                                                <li>
+                                                    Men's fashion
+                                                </li>
+                                                <li>
+                                                    Health
+                                                </li>
+                                            </ul>
+
+                                        </Col>
+                                        <Col md={4} xs={6}>
+                                            <ul className="pl-3">
+                                                <li>
+                                                    Technology
+                                                </li>
+                                                <li>
+                                                    Beautiful thing
+                                                </li>
+                                                <li>
+                                                    Programming
+                                                </li>
+                                                <li>
+                                                    Gadgets
+                                                </li>
+                                            </ul>
+                                        </Col>
+                                        <Col md={4} xs={6}>
+                                            <ul className="pl-3">
+                                                <li>
+                                                    Art work
+                                                </li>
+                                                <li>
+                                                    Quotes
+                                                </li>
+                                            </ul>
+                                        </Col>
+                                    </Row>
+
                                 </ScrollAnimation>
 
 
@@ -52,7 +98,7 @@ class ResumeBackground extends React.Component {
                         <Col md={8} xs={12}>
                             <div className="text-background mt-4">
                                 <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="500">
-                                    <p>2014 - 2018</p>
+                                    <p>Aug 2014 - May 2018</p>
                                     <p>
                                         Bachelor of Computer and Information Engineering
                                         Kasetsart University Sriracha Campus
